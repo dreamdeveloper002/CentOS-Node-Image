@@ -1,7 +1,7 @@
 # CentOS-Node-Image
 
 # BUILD DOCKERFILE 
-docker build -t .
+docker build -t <image-name> .
 
 # NODE IMAGE VERSION(v12.22.3) 
-docker run node --version.
+docker run <image-name> node --version
